@@ -61,7 +61,7 @@ def register():
         }
         collection.insert_one(new_user)
 
-        return redirect('/index')
+        return redirect('/')
 
     return render_template("register.html")
 
